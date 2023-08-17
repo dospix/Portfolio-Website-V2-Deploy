@@ -5,6 +5,11 @@ import mimetypes
 import requests
 import math
 import random
+import copy
+import joblib
+import pandas as pd
+import torch
+import torch.nn as nn
 
 mimetypes.add_type("application/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
@@ -77,6 +82,79 @@ def return_index_for_random_batch(total_items, items_per_batch):
             batch_index = 0
     
     return batch_index
+
+@app.route("/used-cars-machine-learning-project/submit", methods=["POST"])
+@cross_origin()
+def predict_used_car_price_using_neural_network():
+    form_response_json = request.get_json()
+    form_response = convert_form_response_to_valid_neural_network_input(form_response_json)
+
+    return form_response
+
+def convert_form_response_to_valid_neural_network_input(intial_response):
+    converted_response = copy.deepcopy(intial_response)
+
+    for key in converted_response.keys():
+        try:
+            converted_response[key] = float(converted_response[key])
+        except ValueError:
+            pass
+    
+    with open('neural_network_input_columns.txt', 'r') as f:
+        neural_network_input_columns = [line.strip() for line in f]
+    
+    valid_neural_network_input = dict()
+    valid_neural_network_input.update([(column, False) for column in neural_network_input_columns])
+    valid_neural_network_input["entry_year"] = converted_response["manufacturingYear"]
+    valid_neural_network_input["condition"] = converted_response["condition"]
+    valid_neural_network_input["cylinders"] = converted_response["cylinders"]
+    valid_neural_network_input["odometer"] = converted_response["odometer"]
+    valid_neural_network_input["vehicle_size"] = converted_response["size"]
+
+    manufacturer_column_name = f"manufacturer_{converted_response['manufacturer']}"
+    model_column_name = f"model_{converted_response['carModel']}"
+    fuel_column_name = f"fuel_{converted_response['fuel']}"
+    vehicle_status_column_name = f"vehicle_status_{converted_response['status']}"
+    transmission_column_name = f"transmission_{converted_response['transmission']}"
+    drive_column_name = f"drive_{converted_response['drive']}"
+    vehicle_type_column_name = f"vehicle_type_{converted_response['type']}"
+    if manufacturer_column_name in valid_neural_network_input.keys():
+        valid_neural_network_input[manufacturer_column_name] = True
+    if model_column_name in valid_neural_network_input.keys():
+        valid_neural_network_input[model_column_name] = True
+    if fuel_column_name in valid_neural_network_input.keys():
+        valid_neural_network_input[fuel_column_name] = True
+    if vehicle_status_column_name in valid_neural_network_input.keys():
+        valid_neural_network_input[vehicle_status_column_name] = True
+    if transmission_column_name in valid_neural_network_input.keys():
+        valid_neural_network_input[transmission_column_name] = True
+    if drive_column_name in valid_neural_network_input.keys():
+        valid_neural_network_input[drive_column_name] = True
+    if vehicle_type_column_name in valid_neural_network_input.keys():
+        valid_neural_network_input[vehicle_type_column_name] = True
+    
+    for key, value in valid_neural_network_input.items():
+        valid_neural_network_input[key] = [value]
+    valid_neural_network_input = pd.DataFrame(valid_neural_network_input)
+    scaler = joblib.load("used_cars_scaler.pkl")
+    scaled_input = scaler.transform(valid_neural_network_input)
+
+    input_tensor = torch.tensor(scaled_input, dtype=torch.float32)
+    model = nn.Sequential(
+        nn.Linear(2114, 235),
+        nn.ReLU(),
+        nn.Dropout(0.306),
+        nn.Linear(235, 324),
+        nn.ReLU(),
+        nn.Dropout(0.265),
+        nn.Linear(324, 1)
+    )
+    model.load_state_dict(torch.load("used_cars_price_prediction_neural_network.pt"))
+    model.eval()
+    with torch.no_grad():
+        prediction = model(input_tensor)
+
+    return {"price": f"{float(prediction):,.2f}"}
 
 if __name__ == "__main__":
     app.run()

@@ -1,0 +1,2114 @@
+entry_year
+condition
+cylinders
+odometer
+vehicle_size
+manufacturer_alfa-romeo
+manufacturer_audi
+manufacturer_bmw
+manufacturer_buick
+manufacturer_cadillac
+manufacturer_chevrolet
+manufacturer_chrysler
+manufacturer_datsun
+manufacturer_dodge
+manufacturer_fiat
+manufacturer_ford
+manufacturer_gmc
+manufacturer_harley-davidson
+manufacturer_honda
+manufacturer_hyundai
+manufacturer_infiniti
+manufacturer_jaguar
+manufacturer_jeep
+manufacturer_kia
+manufacturer_land rover
+manufacturer_lexus
+manufacturer_lincoln
+manufacturer_mazda
+manufacturer_mercedes-benz
+manufacturer_mercury
+manufacturer_mini
+manufacturer_mitsubishi
+manufacturer_nissan
+manufacturer_pontiac
+manufacturer_porsche
+manufacturer_ram
+manufacturer_rover
+manufacturer_saturn
+manufacturer_subaru
+manufacturer_tesla
+manufacturer_toyota
+manufacturer_unknown
+manufacturer_volkswagen
+manufacturer_volvo
+model_128i
+model_128i convertible
+model_135i
+model_1500
+model_1500 4wd
+model_1500 4x4
+model_1500 big horn
+model_1500 big horn/lone star
+model_1500 classic
+model_1500 crew cab
+model_1500 crew cab big horn
+model_1500 crew cab laramie
+model_1500 crew cab laramie pickup
+model_1500 express
+model_1500 laramie
+model_1500 laramie 4x4
+model_1500 laramie 4x4 gas
+model_1500 laramie longhorn
+model_1500 quad cab
+model_1500 quad cab big horn
+model_1500 rebel
+model_1500 silverado
+model_1500 slt
+model_1500 slt 4x4
+model_1500 sport
+model_1500 sport 4x4
+model_1500 sport 4x4 1/2 ton
+model_1500 st
+model_1500 suburban
+model_1500 tradesman
+model_2
+model_2 series
+model_200
+model_200 limited
+model_200 lx
+model_200 s
+model_200 touring
+model_2006
+model_2008
+model_2011
+model_2015
+model_2016
+model_250
+model_2500
+model_2500 4x4
+model_2500 crew cab
+model_2500 cummins
+model_2500 diesel
+model_2500 hd
+model_2500 laramie
+model_2500 laramie longhorn
+model_2500 mega cab
+model_2500 quad cab
+model_2500 slt
+model_2500 slt 4x4
+model_2500 tradesman
+model_2500hd
+model_280zx
+model_3
+model_3 series
+model_3 series 328i
+model_3 series 328i xdrive
+model_3 series 330i xdrive sedan
+model_3-series
+model_3.2 tl
+model_300
+model_300 300s sedan 4d
+model_300 limited
+model_300 limited sedan 4d
+model_300 s
+model_300 touring
+model_300-series
+model_300c
+model_300c hemi
+model_300m
+model_300s
+model_300zx
+model_300zx coupe with t-tops
+model_320i
+model_320i xdrive
+model_323i
+model_325ci
+model_325ci convertible
+model_325i
+model_325xi
+model_328
+model_328i
+model_328i convertible
+model_328i xdrive
+model_328xi
+model_330ci
+model_330i
+model_330xi
+model_335i
+model_335i convertible
+model_335i xdrive
+model_335xi
+model_3500
+model_3500 4x4
+model_3500 dually
+model_3500 laramie
+model_3500 mega cab
+model_3500 slt
+model_3500 tradesman
+model_3500hd
+model_350z
+model_350z convertible
+model_370z
+model_380sl
+model_4 runner
+model_4 series
+model_4-runner
+model_428i
+model_428i gran coupe
+model_430i
+model_4500
+model_4runner
+model_4runner 4wd
+model_4runner limited
+model_4runner limited 4x4
+model_4runner limited sport
+model_4runner sport edition
+model_4runner sr5
+model_4runner sr5 4x4
+model_4runner sr5 premium sport
+model_4runner sr5 sport utility
+model_5
+model_5 series
+model_5 series 528i
+model_5 series 528i xdrive
+model_5 series 535i
+model_5-series
+model_500
+model_500 abarth
+model_500 pop
+model_500 sport
+model_500e
+model_500l
+model_500x
+model_525i
+model_528i
+model_528i xdrive
+model_528xi
+model_530i
+model_530xi
+model_535i
+model_535i xdrive
+model_535xi
+model_540i
+model_5500
+model_550i
+model_550i xdrive
+model_6
+model_6 series
+model_650i
+model_650i convertible
+model_7 series
+model_7-series
+model_740i
+model_740il
+model_750i
+model_750li
+model_86
+model_911
+model_911 carrera
+model_944
+model_Corvette
+model_Freightliner
+model_Freightliner M2
+model_Genesis G80
+model_Genesis G80 3.8 Sedan 4D
+model_HUMMER H2
+model_HUMMER H3
+model_Hummer H2
+model_Hummer H3
+model_ISUZU NPR
+model_International
+model_International 4300
+model_International 4700
+model_International School Bus
+model_Isuzu NPR
+model_Isuzu NPR HD
+model_Maserati Ghibli
+model_Maserati Quattroporte
+model_SCION TC
+model_SCION XB
+model_Saab 9-3
+model_Scion FR-S
+model_Scion TC
+model_Scion XB
+model_Scion tC
+model_Scion xB
+model_Scion xD
+model_Suzuki Grand Vitara
+model_Suzuki SX4
+model_a3
+model_a3 premium sedan 4d
+model_a4
+model_a4 2.0t premium plus
+model_a4 2.0t quattro
+model_a4 2.0t quattro premium
+model_a4 premium plus sedan 4d
+model_a4 quattro
+model_a4 ultra premium sedan 4d
+model_a5
+model_a5 2.0t premium plus
+model_a5 premium plus sedan 4d
+model_a6
+model_a6 2.0t premium plus sedan
+model_a6 2.0t premium sedan 4d
+model_a6 3.0t quattro
+model_a6 3.2 quattro
+model_a6 quattro
+model_a7
+model_a8
+model_a8 l
+model_acadia
+model_acadia denali
+model_acadia denali awd
+model_acadia limited
+model_acadia sle
+model_acadia sle-2 sport utility
+model_acadia slt
+model_acadia slt-1
+model_acadia slt-2
+model_accent
+model_accent gls
+model_accent gs
+model_accent se
+model_accent se sedan 4d
+model_accord
+model_accord 4-door sedan
+model_accord coupe
+model_accord cpe
+model_accord crosstour
+model_accord ex
+model_accord ex v6
+model_accord ex-l
+model_accord ex-l sedan 4d
+model_accord ex-l v6
+model_accord exl
+model_accord hybrid
+model_accord lx
+model_accord lx sedan
+model_accord lx sedan 4d
+model_accord lx-p
+model_accord sdn
+model_accord se
+model_accord sedan
+model_accord sport
+model_accord sport sedan 4d
+model_accord touring sedan 4d
+model_allante
+model_allroad
+model_altima
+model_altima 2.5
+model_altima 2.5 4dr sedan
+model_altima 2.5 s
+model_altima 2.5 sl
+model_altima 2.5 sr
+model_altima 2.5 sv
+model_altima 2.5s
+model_altima 3.5 sl
+model_altima coupe
+model_altima s
+model_altima sl
+model_altima sr
+model_altima sv
+model_amanti
+model_armada
+model_armada le
+model_armada platinum
+model_armada se
+model_ascent
+model_aspen
+model_aspen limited
+model_astra
+model_astro
+model_astro van
+model_atlas
+model_ats
+model_ats luxury
+model_ats sedan
+model_aura
+model_aura xe
+model_aura xr
+model_avalanche
+model_avalanche 1500
+model_avalanche lt
+model_avalanche ltz
+model_avalanche z71
+model_avalon
+model_avalon hybrid
+model_avalon hybrid limited
+model_avalon limited
+model_avalon limited sedan 4d
+model_avalon xl
+model_avalon xls
+model_avenger
+model_avenger r/t
+model_avenger se
+model_avenger sxt
+model_aveo
+model_aveo ls
+model_aveo lt
+model_aviator
+model_azera
+model_azera limited
+model_b2300
+model_b3000
+model_b9 tribeca
+model_baja
+model_beetle
+model_beetle convertible
+model_beetle turbo
+model_benz
+model_benz 380sl
+model_benz c230
+model_benz c240
+model_benz c250
+model_benz c280
+model_benz c280 4matic
+model_benz c300
+model_benz c300 4matic
+model_benz c320
+model_benz c350
+model_benz clk 320
+model_benz cls550
+model_benz e320
+model_benz e320 4matic
+model_benz e350
+model_benz e350 4matic
+model_benz e500
+model_benz e550
+model_benz gl450
+model_benz glk 350
+model_benz glk350 4matic
+model_benz ml320
+model_benz ml350
+model_benz ml350 4matic
+model_benz ml500
+model_benz r350 4matic
+model_benz s430
+model_benz s500
+model_benz s550
+model_benz sl500
+model_blazer
+model_bolt ev
+model_bonneville
+model_bonneville se
+model_borrego
+model_box truck
+model_boxster
+model_boxster s
+model_bronco
+model_bronco ii
+model_bronco xlt
+model_brz
+model_brz limited
+model_c 300
+model_c-class
+model_c-class c 300
+model_c-hr
+model_c-max
+model_c-max energi
+model_c-max hybrid
+model_c/k 1500
+model_c10
+model_c1500
+model_c230 kompressor
+model_c30
+model_c300
+model_c3500
+model_c4500
+model_c5500
+model_c6500
+model_c70
+model_c70 convertible
+model_c7500
+model_c8500
+model_cadenza
+model_caliber
+model_caliber sxt
+model_camaro
+model_camaro 2ss
+model_camaro convertible
+model_camaro ls
+model_camaro lt
+model_camaro lt convertible
+model_camaro lt coupe 2d
+model_camaro rs
+model_camaro ss
+model_camaro ss coupe 2d
+model_camaro z28
+model_camry
+model_camry ce
+model_camry hybrid
+model_camry hybrid xle
+model_camry le
+model_camry le 4dr sedan
+model_camry le sedan 4d
+model_camry se
+model_camry se 4dr sedan
+model_camry solara
+model_camry solara convertible
+model_camry xle
+model_camry xle v6
+model_canyon
+model_caprice
+model_captiva
+model_captiva sport
+model_captiva sport fleet
+model_caravan
+model_cargo van
+model_cavalier
+model_cayenne
+model_cayenne s
+model_cayman
+model_cc
+model_cc sport
+model_celica
+model_celica gt
+model_celica gt-s
+model_century
+model_century custom
+model_challenger
+model_challenger r/t
+model_challenger r/t coupe 2d
+model_challenger r/t scat pack
+model_challenger srt8
+model_challenger sxt
+model_charger
+model_charger gt sedan 4d
+model_charger r/t
+model_charger r/t scat pack
+model_charger rt
+model_charger se
+model_charger sxt
+model_charger sxt sedan 4d
+model_cherokee
+model_cherokee latitude
+model_cherokee latitude 4x4
+model_cherokee latitude plus
+model_cherokee limited
+model_cherokee sport
+model_cherokee sport 4x4
+model_cherokee trailhawk
+model_city express
+model_civic
+model_civic coupe
+model_civic coupe ex
+model_civic dx
+model_civic ex
+model_civic ex coupe
+model_civic ex sedan
+model_civic ex sedan 4d
+model_civic ex-l
+model_civic exl
+model_civic hatchback
+model_civic hybrid
+model_civic lx
+model_civic lx coupe
+model_civic lx sedan
+model_civic lx sedan 4d
+model_civic sdn
+model_civic sedan
+model_civic sedan lx
+model_civic si
+model_civic si coupe
+model_civic sport
+model_civic type r touring
+model_cj-7
+model_cj5
+model_cj7
+model_cla
+model_cla 250
+model_cla-class
+model_classic
+model_clk
+model_clk-class
+model_clk350
+model_cls
+model_cls-class
+model_cls550
+model_clubman
+model_cmax hybrid
+model_cobalt
+model_cobalt ls
+model_cobalt lt
+model_colorado
+model_colorado crew cab
+model_colorado crew cab lt
+model_colorado crew cab z71
+model_colorado extended cab
+model_colorado lt
+model_colorado z71
+model_comanche
+model_commander
+model_commander limited
+model_compass
+model_compass latitude
+model_compass limited
+model_compass sport
+model_concorde
+model_continental
+model_continental reserve
+model_convertible
+model_cooper
+model_cooper clubman
+model_cooper clubman s
+model_cooper convertible
+model_cooper countryman
+model_cooper countryman s
+model_cooper countryman s all4
+model_cooper hardtop
+model_cooper hardtop 2 door
+model_cooper hardtop 4 door
+model_cooper s
+model_cooper s convertible
+model_cooper s countryman
+model_corolla
+model_corolla ce
+model_corolla im
+model_corolla l
+model_corolla le
+model_corolla le 4dr sedan
+model_corolla le sedan 4d
+model_corolla s
+model_corolla se
+model_corvette
+model_corvette convertible
+model_corvette coupe
+model_corvette grand sport
+model_corvette stingray
+model_corvette stingray z51
+model_corvette z06
+model_cougar
+model_countryman
+model_countryman cooper s all4
+model_cr-v
+model_cr-v ex
+model_cr-v ex awd
+model_cr-v ex sport utility 4d
+model_cr-v ex-l
+model_cr-v ex-l awd
+model_cr-v ex-l sport utility 4d
+model_cr-v lx
+model_cr-v lx sport utility 4d
+model_cr-z
+model_crossfire
+model_crosstour
+model_crosstrek
+model_crosstrek 2.0i limited
+model_crosstrek 2.0i premium
+model_crosstrek limited
+model_crosstrek premium
+model_crown victoria
+model_crown victoria police
+model_crown victoria police inter
+model_cruze
+model_cruze 1lt
+model_cruze 2lt
+model_cruze eco
+model_cruze limited
+model_cruze ls
+model_cruze lt
+model_cruze lt sedan 4d
+model_cruze ltz
+model_cruze rs
+model_crv
+model_crv awd
+model_crv ex
+model_crv ex awd
+model_crv ex-l
+model_crv ex-l awd
+model_crv lx
+model_crv lx awd
+model_ct
+model_ct 200h
+model_ct 200h hatchback 4d
+model_ct200h
+model_ct5 premium luxury
+model_ct6
+model_cts
+model_cts coupe
+model_cts sedan
+model_cts sedan 4d
+model_cts4
+model_cube
+model_cummins 3500 laramie
+model_cx-3
+model_cx-5
+model_cx-5 grand touring
+model_cx-5 touring
+model_cx-5 touring sport utility
+model_cx-7
+model_cx-9
+model_cx-9 grand touring
+model_cx-9 touring
+model_cx9
+model_dakota
+model_dakota quad cab
+model_dakota slt
+model_dakota sport
+model_dart
+model_dart aero
+model_dart limited
+model_dart rallye
+model_dart se
+model_dart sxt
+model_davidson
+model_deisel cummins 3500
+model_denali
+model_deville
+model_diesel cummins 3500
+model_discovery
+model_discovery sport
+model_discovery sport hse
+model_discovery sport se
+model_dts
+model_durango
+model_durango citadel
+model_durango limited
+model_durango r/t
+model_durango slt
+model_durango sxt
+model_durango sxt sport utility
+model_e 350
+model_e-150
+model_e-250
+model_e-350
+model_e-450
+model_e-class
+model_e-class e 300
+model_e-class e 350
+model_e-class e 400
+model_e-golf
+model_e-golf se hatchback
+model_e-series cargo
+model_e150
+model_e150 cargo van
+model_e150 econoline
+model_e250
+model_e250 cargo van
+model_e250 econoline
+model_e320
+model_e350
+model_e350 4matic
+model_e350 box truck
+model_e350 cargo van
+model_e350 cutaway
+model_e350 passenger van
+model_e350 super duty
+model_e350 van
+model_e450
+model_e450 bus
+model_echo
+model_eclipse
+model_eclipse cross
+model_econoline
+model_econoline cargo van
+model_econoline commercial cutaway
+model_econoline e250
+model_econoline e350
+model_econoline wagon
+model_ecosport
+model_edge
+model_edge limited
+model_edge limited awd
+model_edge se
+model_edge sel
+model_edge sel awd
+model_edge sel sport utility 4d
+model_edge sport
+model_edge titanium
+model_el camino
+model_elantra
+model_elantra gls
+model_elantra gt
+model_elantra gt hatchback 4d
+model_elantra limited
+model_elantra se
+model_elantra se sedan 4d
+model_elantra sel
+model_elantra touring
+model_eldorado
+model_element
+model_element ex
+model_element ex awd
+model_enclave
+model_enclave awd
+model_enclave cxl
+model_enclave cxl awd
+model_enclave essence sport
+model_enclave leather
+model_enclave premium
+model_enclave premium sport
+model_encore
+model_encore essence sport
+model_encore preferred
+model_encore preferred ii sport
+model_encore preferred sport
+model_endeavor
+model_entourage
+model_envision
+model_envision preferred sport
+model_envoy
+model_envoy denali
+model_envoy sle
+model_envoy slt
+model_envoy xl
+model_eos
+model_eos komfort
+model_equinox
+model_equinox 2lt
+model_equinox awd
+model_equinox ls
+model_equinox ls awd
+model_equinox lt
+model_equinox lt awd
+model_equinox ltz
+model_equinox ltz awd
+model_equinox premier
+model_equus
+model_es
+model_es 300
+model_es 300h
+model_es 330
+model_es 350
+model_es 350 sedan 4d
+model_es300
+model_es330
+model_es350
+model_escalade
+model_escalade awd
+model_escalade esv
+model_escalade esv premium
+model_escalade ext
+model_escalade luxury
+model_escalade premium
+model_escape
+model_escape hybrid
+model_escape limited
+model_escape s
+model_escape se
+model_escape se 4wd
+model_escape se automatic
+model_escape se awd
+model_escape se sport utility 4d
+model_escape sel
+model_escape titanium
+model_escape titanium sport
+model_escape xls
+model_escape xlt
+model_escape xlt 4x4
+model_escort
+model_eurovan
+model_eurovan camper
+model_evoque
+model_ex35
+model_excursion
+model_excursion eddie bauer
+model_excursion limited
+model_excursion xlt
+model_expedition
+model_expedition eddie bauer
+model_expedition el
+model_expedition el limited
+model_expedition el xlt
+model_expedition limited
+model_expedition max
+model_expedition xlt
+model_expedition xlt 4x4
+model_explorer
+model_explorer 4x4
+model_explorer eddie bauer
+model_explorer eddie bauer 4x4
+model_explorer limited
+model_explorer limited 4wd
+model_explorer police interceptor
+model_explorer sport
+model_explorer sport trac
+model_explorer sport trac xlt
+model_explorer xls
+model_explorer xlt
+model_explorer xlt 4wd
+model_explorer xlt 4x4
+model_explorer xlt sport utility
+model_express
+model_express 1500
+model_express 1500 cargo van
+model_express 2500
+model_express 2500 cargo van
+model_express 3500
+model_express cargo
+model_express cargo van
+model_express commercial cutaway
+model_express cutaway
+model_express cutaway 3500
+model_express g2500
+model_express g3500
+model_express passenger
+model_express van
+model_f 150
+model_f 350
+model_f-150
+model_f-150 4x4
+model_f-150 fx4
+model_f-150 king ranch
+model_f-150 lariat
+model_f-150 platinum
+model_f-150 raptor
+model_f-150 stx
+model_f-150 svt raptor
+model_f-150 xl
+model_f-150 xlt
+model_f-150 xlt 4x4
+model_f-150 xlt automatic
+model_f-250
+model_f-250 sd
+model_f-250 super duty
+model_f-250 super duty lariat
+model_f-250 super duty xl
+model_f-250 super duty xlt
+model_f-250 xlt
+model_f-250sd
+model_f-350
+model_f-350 sd
+model_f-350 super duty
+model_f-350sd
+model_f-450
+model_f-450 super duty
+model_f-450sd
+model_f-550
+model_f-550 super duty
+model_f-650
+model_f-750
+model_f-pace
+model_f150
+model_f150 4x4
+model_f150 fx4
+model_f150 king ranch
+model_f150 lariat
+model_f150 lariat 4x4
+model_f150 lariat supercrew
+model_f150 lariat supercrew 4x4
+model_f150 platinum
+model_f150 platinum 4x4
+model_f150 regular cab
+model_f150 super cab
+model_f150 super cab xlt pickup
+model_f150 supercrew
+model_f150 supercrew 4x4
+model_f150 supercrew cab
+model_f150 supercrew cab lariat
+model_f150 supercrew cab xl
+model_f150 supercrew cab xlt
+model_f150 xl
+model_f150 xlt
+model_f150 xlt 4x4
+model_f150 xlt 4x4 1/2 ton gas
+model_f150 xlt 4x4 half ton gas
+model_f150 xlt supercrew
+model_f250
+model_f250 4x4
+model_f250 king ranch
+model_f250 lariat
+model_f250 super duty
+model_f250 super duty 4x4
+model_f250 super duty crew cab
+model_f250 super duty lariat
+model_f250 super duty xlt
+model_f250 xl
+model_f250 xlt
+model_f250sd
+model_f350
+model_f350 4x4
+model_f350 crew cab
+model_f350 diesels powerstroke
+model_f350 dually
+model_f350 king ranch
+model_f350 lariat
+model_f350 super duty
+model_f350 super duty crew cab
+model_f350 super duty diesel
+model_f350 super duty lariat
+model_f350 xlt
+model_f450
+model_f450 super duty
+model_f550
+model_f550 4x4
+model_f550 super duty
+model_f650
+model_f750
+model_f800
+model_fiero gt
+model_fiesta
+model_fiesta s
+model_fiesta se
+model_fiesta ses
+model_fiesta st
+model_firebird
+model_firebird formula
+model_firebird trans am
+model_fit
+model_fit ex
+model_fit lx hatchback 4d
+model_fit sport
+model_fit sport hatchback
+model_five hundred
+model_fj cruiser
+model_fj cruiser 4x4
+model_fleetwood
+model_fleetwood brougham
+model_flex
+model_flex limited
+model_flex limited awd
+model_flex se
+model_flex sel
+model_flex sel awd
+model_focus
+model_focus electric hatchback 4d
+model_focus s
+model_focus se
+model_focus se hatchback
+model_focus se sedan
+model_focus sel
+model_focus ses
+model_focus st
+model_focus titanium
+model_focus zx3
+model_focus zx4
+model_forester
+model_forester 2.5i limited
+model_forester 2.5i premium
+model_forester 2.5x
+model_forester 2.5x limited
+model_forester 2.5x premium
+model_forester 2.5x premium awd
+model_forester awd
+model_forester limited
+model_forester premium
+model_forte
+model_forte ex
+model_forte koup
+model_forte lx
+model_freestar
+model_freestyle
+model_freestyle limited
+model_freightliner
+model_freightliner cascadia
+model_freightliner m2
+model_frontier
+model_frontier 4x4
+model_frontier crew cab
+model_frontier crew cab sv
+model_frontier se
+model_frontier sv
+model_frontier xe
+model_fusion
+model_fusion energi
+model_fusion hybrid
+model_fusion hybrid se
+model_fusion s
+model_fusion se
+model_fusion se sedan 4d
+model_fusion sel
+model_fusion sport
+model_fusion titanium
+model_fuso
+model_fx35
+model_g g37x sedan 4d
+model_g20 van
+model_g35
+model_g35 sedan
+model_g35x
+model_g37
+model_g37 coupe
+model_g37 sedan
+model_g37x
+model_g37x awd
+model_g5
+model_g6
+model_g6 gt
+model_g8
+model_g8 gt
+model_galant
+model_genesis
+model_genesis 3.8 sedan 4d
+model_genesis 3.8l
+model_genesis coupe
+model_genesis coupe 2.0t
+model_gl-class
+model_gl450
+model_gla
+model_gla 250
+model_gla-class
+model_gladiator
+model_glc
+model_glc 300 4matic
+model_glc 300 sport
+model_gle
+model_gle 350
+model_gle 350 4matic
+model_gle-class
+model_glk
+model_glk 350
+model_glk-class
+model_glk-class glk 350
+model_gls
+model_golf
+model_golf alltrack
+model_golf gti
+model_golf gti s hatchback
+model_golf r
+model_golf sportwagen
+model_golf sportwagen tsi s
+model_golf tdi
+model_grand am
+model_grand caravan
+model_grand caravan gt
+model_grand caravan passenger
+model_grand caravan se
+model_grand caravan sxt
+model_grand caravan wheelchair
+model_grand cherokee
+model_grand cherokee 4x4
+model_grand cherokee laredo
+model_grand cherokee laredo 4wd
+model_grand cherokee laredo 4x4
+model_grand cherokee laredo sport
+model_grand cherokee limited
+model_grand cherokee limited 4wd
+model_grand cherokee limited 4x4
+model_grand cherokee overland
+model_grand cherokee overland 4x4
+model_grand cherokee srt8
+model_grand cherokee summit
+model_grand marquis
+model_grand marquis gs
+model_grand marquis ls
+model_grand prix
+model_grand prix gt
+model_grand wagoneer
+model_gs
+model_gs 300
+model_gs 350
+model_gs 350 sedan 4d
+model_gs300
+model_gs350
+model_gti
+model_gto
+model_gx
+model_gx 460
+model_gx 460 sport utility 4d
+model_gx 470
+model_gx460
+model_gx470
+model_hardtop
+model_hardtop 2 door
+model_hardtop 2 door cooper s
+model_hardtop 4 door
+model_hardtop cooper s hatchback
+model_hhr
+model_hhr ls
+model_hhr lt
+model_highlander
+model_highlander awd
+model_highlander hybrid
+model_highlander hybrid limited
+model_highlander le sport
+model_highlander limited
+model_highlander limited awd
+model_highlander se
+model_highlander sport
+model_highlander xle
+model_hr-v
+model_hrv
+model_hse
+model_hummer h2
+model_hummer h3
+model_i3
+model_i3 hatchback 4d
+model_ilx
+model_ilx 2.0l sedan 4d
+model_ilx sedan 4d
+model_impala
+model_impala limited
+model_impala ls
+model_impala lt
+model_impala ltz
+model_impala police
+model_impala ss
+model_impreza
+model_impreza 2.0i
+model_impreza 2.0i premium
+model_impreza 2.5i
+model_impreza awd
+model_impreza outback sport
+model_impreza premium
+model_impreza sedan
+model_impreza sedan wrx
+model_impreza sport
+model_impreza wagon
+model_impreza wrx
+model_impreza wrx sti
+model_insight
+model_insight hybrid
+model_international
+model_international 4300
+model_international 4400
+model_international 4700
+model_ion
+model_ion 2
+model_ion 3
+model_ioniq hybrid
+model_is
+model_is 200t
+model_is 250
+model_is 250 awd
+model_is 250 sedan 4d
+model_is 300
+model_is 350
+model_is 350 sedan 4d
+model_is250
+model_is250 awd
+model_is300
+model_isuzu npr
+model_isuzu npr hd
+model_isuzu trooper
+model_jetta
+model_jetta 1.4t s
+model_jetta 1.4t s sedan 4d
+model_jetta gli
+model_jetta gls
+model_jetta s
+model_jetta se
+model_jetta sedan
+model_jetta sportwagen
+model_jetta sportwagen 2.0l
+model_jetta sportwagen tdi
+model_jetta tdi
+model_jimmy
+model_journey
+model_journey crossroad
+model_journey r/t
+model_journey se
+model_journey sxt
+model_journey sxt awd
+model_juke
+model_juke sl
+model_juke sl awd
+model_juke sv
+model_jx35
+model_k10
+model_k10 4x4
+model_k5 blazer
+model_kicks
+model_kona
+model_lacrosse
+model_lacrosse cx
+model_lacrosse cxl
+model_lacrosse premium
+model_lancer
+model_lancer es
+model_lancer evolution
+model_land cruiser
+model_landcruiser
+model_leaf
+model_leaf s
+model_leaf s hatchback 4d
+model_leaf sl
+model_leaf sv
+model_leaf sv hatchback 4d
+model_legacy
+model_legacy 2.5i
+model_legacy 2.5i limited
+model_legacy 2.5i premium
+model_legacy gt
+model_legacy outback
+model_legacy premium
+model_legacy wagon
+model_lesabre
+model_lesabre custom
+model_lesabre limited
+model_liberty
+model_liberty 4x4
+model_liberty limited
+model_liberty limited 4x4
+model_liberty sport
+model_liberty sport 4x4
+model_lr2
+model_lr3
+model_lr4
+model_lr4 hse
+model_ls
+model_ls 400
+model_ls 430
+model_ls 460
+model_ls 460 sedan 4d
+model_ls400
+model_ls430
+model_ls460
+model_lucerne
+model_lucerne cx
+model_lucerne cxl
+model_lucerne cxl v6
+model_lumina
+model_lx 470
+model_lx 570
+model_lx470
+model_m-class
+model_m-class ml 350
+model_m3
+model_m35
+model_m37
+model_m4
+model_m45
+model_m5
+model_m6
+model_macan
+model_macan s
+model_magnum
+model_magnum sxt
+model_malibu
+model_malibu 2lt
+model_malibu limited
+model_malibu ls
+model_malibu ls sedan 4d
+model_malibu lt
+model_malibu ltz
+model_mariner
+model_mariner premier
+model_mark lt
+model_matrix
+model_matrix xr
+model_maxima
+model_maxima 3.5 s
+model_maxima 3.5 sv
+model_maxima se
+model_maxima sv
+model_mazda2
+model_mazda3
+model_mazda3 i sport
+model_mazda3 i touring
+model_mazda5
+model_mazda5 sport
+model_mazda6
+model_mazda6 i sport
+model_mazda6 i touring
+model_mazdaspeed3
+model_mdx
+model_mdx awd
+model_mdx sh-awd
+model_mdx sh-awd sport utility
+model_mdx sh-awd w/tech
+model_mdx sh-awd w/technology
+model_mdx sport utility 4d
+model_mdx touring
+model_mercedes-amg
+model_miata
+model_miata mx-5
+model_milan
+model_milan premier
+model_mirage
+model_mirage es
+model_mirage g4
+model_mirage g4 es
+model_mkc
+model_mkc reserve sport
+model_mks
+model_mks awd
+model_mkt
+model_mkx
+model_mkx awd
+model_mkx reserve sport
+model_mkz
+model_mkz awd
+model_mkz hybrid
+model_mkz reserve sedan 4d
+model_mkz sedan 4d
+model_ml 350
+model_ml-class
+model_ml350
+model_model 3
+model_model s
+model_montana
+model_montana sv6
+model_monte carlo
+model_monte carlo ss
+model_montego
+model_montero
+model_montero sport
+model_mountaineer
+model_mpv
+model_mr2
+model_mr2 spyder
+model_murano
+model_murano s
+model_murano s awd
+model_murano sl
+model_murano sl awd
+model_murano sv
+model_mustang
+model_mustang cobra
+model_mustang convertible
+model_mustang ecoboost
+model_mustang ecoboost premium
+model_mustang gt
+model_mustang gt convertible
+model_mustang gt coupe 2d
+model_mustang gt premium
+model_mustang gt premium coupe 2d
+model_mustang shelby gt500
+model_mustang svt cobra
+model_mustang v6
+model_mustang v6 premium
+model_mx-5 miata
+model_mx-5 miata club
+model_mx-5 miata grand touring
+model_navigator
+model_navigator l
+model_neon
+model_new beetle
+model_niro
+model_niro lx wagon 4d
+model_nitro
+model_nitro slt
+model_nitro sxt
+model_nv
+model_nv200
+model_nv200 compact cargo
+model_nv200 sv
+model_nx
+model_nx 200t
+model_nx 200t sport utility 4d
+model_nx 300 sport utility 4d
+model_odyssey
+model_odyssey ex
+model_odyssey ex-l
+model_odyssey ex-l minivan 4d
+model_odyssey exl
+model_odyssey lx
+model_odyssey touring
+model_odyssey touring elite
+model_oldsmobile 88
+model_oldsmobile bravada
+model_oldsmobile cutlass
+model_optima
+model_optima ex
+model_optima hybrid
+model_optima lx
+model_optima lx sedan 4d
+model_optima sx
+model_optima sx turbo
+model_outback
+model_outback 2.5i
+model_outback 2.5i limited
+model_outback 2.5i premium
+model_outback 3.6r limited
+model_outback awd
+model_outback limited
+model_outback premium
+model_outback wagon
+model_outlander
+model_outlander phev sel
+model_outlander se
+model_outlander se sport
+model_outlander sport
+model_outlander sport es
+model_outlander sport se
+model_outlook
+model_pacifica
+model_pacifica limited
+model_pacifica touring
+model_pacifica touring l
+model_panamera
+model_park avenue
+model_passat
+model_passat se
+model_passat tdi
+model_passat tdi sel
+model_passat wagon
+model_passport
+model_pathfinder
+model_pathfinder le
+model_pathfinder platinum
+model_pathfinder s
+model_pathfinder se
+model_pathfinder sl
+model_pathfinder sv
+model_patriot
+model_patriot 4x4
+model_patriot latitude
+model_patriot latitude 4x4
+model_patriot limited
+model_patriot sport
+model_patriot sport 4x4
+model_pickup
+model_pickup 1500
+model_pickup 1500 classic
+model_pickup 2500
+model_pickup 3500
+model_pilot
+model_pilot ex
+model_pilot ex-l
+model_pilot ex-l 4wd
+model_pilot ex-l sport utility
+model_pilot exl
+model_pilot lx
+model_pilot touring
+model_prelude
+model_prius
+model_prius c
+model_prius four
+model_prius hybrid
+model_prius ii
+model_prius iii
+model_prius plug-in
+model_prius plug-in hybrid
+model_prius prime
+model_prius three
+model_prius touring
+model_prius two
+model_prius two hatchback 4d
+model_prius v
+model_prius v hybrid
+model_promaster
+model_promaster 1500
+model_promaster 2500
+model_promaster cargo
+model_promaster cargo van
+model_promaster city
+model_promaster city cargo van
+model_protege
+model_pt cruiser
+model_pt cruiser convertible
+model_pt cruiser limited
+model_pt cruiser touring
+model_q3
+model_q45
+model_q5
+model_q5 premium plus
+model_q5 premium sport utility 4d
+model_q5 quattro premium plus
+model_q50
+model_q50 3.0t luxe sedan 4d
+model_q60
+model_q7
+model_q7 3.0t premium plus sport
+model_q70
+model_quest
+model_quest s
+model_qx30
+model_qx4
+model_qx50
+model_qx50 sport utility 4d
+model_qx56
+model_qx60
+model_qx60 3.5 sport utility
+model_qx60 luxe sport utility
+model_qx70
+model_qx80
+model_qx80 sport utility 4d
+model_rabbit
+model_ranger
+model_ranger 4x4
+model_ranger edge
+model_ranger super cab
+model_ranger xl
+model_ranger xlt
+model_ranger xlt 4x4
+model_rav 4
+model_rav4
+model_rav4 awd
+model_rav4 hybrid
+model_rav4 le
+model_rav4 limited
+model_rav4 limited awd
+model_rav4 sport
+model_rav4 xle
+model_rav4 xle awd
+model_rav4 xle sport utility 4d
+model_rc
+model_rc 350
+model_rdx
+model_rdx awd
+model_rdx sh-awd
+model_rdx sport utility 4d
+model_reatta
+model_regal
+model_regal gs
+model_rendezvous
+model_rendezvous cxl
+model_renegade
+model_renegade latitude
+model_renegade latitude sport
+model_renegade limited
+model_renegade sport
+model_renegade sport suv 4d
+model_renegade trailhawk
+model_ridgeline
+model_ridgeline rtl
+model_ridgeline rtl 4wd
+model_rio
+model_rio lx
+model_riviera
+model_rl
+model_rogue
+model_rogue awd
+model_rogue s
+model_rogue s awd
+model_rogue s sport utility 4d
+model_rogue select
+model_rogue sl
+model_rogue sl awd
+model_rogue sport
+model_rogue sv
+model_rogue sv awd
+model_rogue sv sport utility 4d
+model_romeo giulia
+model_romeo giulia sedan 4d
+model_romeo stelvio
+model_rondo
+model_rondo lx
+model_routan
+model_routan se
+model_rsx
+model_rx
+model_rx 300
+model_rx 330
+model_rx 350
+model_rx 350 awd
+model_rx 350 sport utility 4d
+model_rx 400h
+model_rx 450h
+model_rx-8
+model_rx300
+model_rx330
+model_rx330 awd
+model_rx350
+model_rx350 awd
+model_rx400h
+model_rx8
+model_s
+model_s-10
+model_s-class
+model_s-class s 550
+model_s-type
+model_s10
+model_s10 blazer
+model_s10 pickup
+model_s2000
+model_s3
+model_s4
+model_s4 quattro
+model_s40
+model_s40 2.4i
+model_s5
+model_s500
+model_s550
+model_s6
+model_s60
+model_s60 2.5t
+model_s60 t5
+model_s80
+model_s80 3.2
+model_s90
+model_saab 9-3
+model_saab 9-3 convertible
+model_saab 9-5
+model_sable
+model_sable ls
+model_safari
+model_santa fe
+model_santa fe gls
+model_santa fe gls awd
+model_santa fe limited
+model_santa fe se
+model_santa fe sport
+model_santa fe sport 2.0t
+model_santa fe sport 2.4l
+model_santa fe sport utility
+model_savana
+model_savana 2500
+model_savana 3500
+model_savana cargo
+model_savana cargo van
+model_sc
+model_sc 430
+model_sc 430 convertible
+model_sc2
+model_sc400
+model_sc430
+model_sc430 convertible
+model_scion
+model_scion fr-s
+model_scion tc
+model_scion xa
+model_scion xb
+model_scion xd
+model_sebring
+model_sebring convertible
+model_sebring limited
+model_sebring touring
+model_sedona
+model_sedona ex
+model_sedona lx
+model_sentra
+model_sentra 2.0
+model_sentra s
+model_sentra sl
+model_sentra sr
+model_sentra sv
+model_sentra sv sedan 4d
+model_sequoia
+model_sequoia limited
+model_sequoia sr5
+model_seville
+model_seville sls
+model_sienna
+model_sienna ce
+model_sienna le
+model_sienna limited
+model_sienna se
+model_sienna xle
+model_sienna xle awd
+model_sienna xle limited
+model_sierra
+model_sierra 1500
+model_sierra 1500 crew cab
+model_sierra 1500 crew cab sle
+model_sierra 1500 crew cab slt
+model_sierra 1500 denali
+model_sierra 1500 double cab
+model_sierra 1500 double cab sle
+model_sierra 1500 sle
+model_sierra 1500 sle 4x4
+model_sierra 1500 slt
+model_sierra 2500
+model_sierra 2500 hd
+model_sierra 2500 hd crew cab
+model_sierra 2500hd
+model_sierra 2500hd denali
+model_sierra 2500hd sle
+model_sierra 2500hd slt
+model_sierra 3500
+model_sierra 3500hd
+model_sierra denali
+model_sierra slt
+model_silverado
+model_silverado 1500
+model_silverado 1500 4wd
+model_silverado 1500 4wd cre
+model_silverado 1500 4x4
+model_silverado 1500 classic
+model_silverado 1500 crew
+model_silverado 1500 crew cab
+model_silverado 1500 custom
+model_silverado 1500 double
+model_silverado 1500 double cab
+model_silverado 1500 ld
+model_silverado 1500 ls
+model_silverado 1500 lt
+model_silverado 1500 lt 4x4
+model_silverado 1500 lt z71
+model_silverado 1500 ltz
+model_silverado 1500 ltz 4x4
+model_silverado 1500 regular
+model_silverado 1500 rst
+model_silverado 1500 work
+model_silverado 1500 z71
+model_silverado 1500hd
+model_silverado 2500
+model_silverado 2500 hd
+model_silverado 2500 hd crew
+model_silverado 2500 hd crew cab
+model_silverado 2500hd
+model_silverado 2500hd 4x4
+model_silverado 2500hd crew cab
+model_silverado 2500hd duramax
+model_silverado 2500hd lt
+model_silverado 2500hd ltz
+model_silverado 3500
+model_silverado 3500hd
+model_silverado 3500hd ltz
+model_silverado 4x4
+model_silverado k1500
+model_silverado lt
+model_silverado ltz
+model_silverado z71
+model_sky
+model_sl-class
+model_sl-class sl 550
+model_sl2
+model_sl500
+model_slk
+model_slk350
+model_smart fortwo
+model_solara
+model_solstice
+model_solstice convertible
+model_solstice gxp
+model_sonata
+model_sonata gls
+model_sonata hybrid
+model_sonata hybrid limited
+model_sonata limited
+model_sonata se
+model_sonata se sedan 4d
+model_sonic
+model_sonic ls
+model_sonic lt
+model_sonic ltz
+model_sonoma
+model_sorento
+model_sorento ex
+model_sorento ex sport utility 4d
+model_sorento lx
+model_sorento lx awd
+model_sorento lx sport utility 4d
+model_soul
+model_soul ! wagon 4d
+model_soul +
+model_soul + wagon 4d
+model_soul base
+model_soul ev
+model_soul plus
+model_soul wagon 4d
+model_spark
+model_spark ls
+model_spark lt
+model_spectra
+model_spectra ex
+model_sport
+model_sport hse
+model_sport trac
+model_sportage
+model_sportage ex
+model_sportage lx
+model_sportage lx awd
+model_sportage lx sport utility 4d
+model_sprinter
+model_sprinter 2500
+model_sprinter 3500
+model_sq5
+model_srx
+model_srx luxury
+model_srx luxury collection
+model_srx performance
+model_ssr
+model_stinger
+model_stratus
+model_sts
+model_suburban
+model_suburban 1500
+model_suburban 1500 lt
+model_suburban 2500
+model_suburban lt
+model_suburban lt 1500
+model_suburban lt 4x4
+model_suburban ltz
+model_suburban ltz 1500
+model_suburban ltz 4x4
+model_suburban z71
+model_super duty
+model_super duty f-250
+model_super duty f-250 srw
+model_super duty f-350 drw
+model_super duty f-350 srw
+model_super duty f-450 drw
+model_super duty f-550 drw
+model_supra
+model_suzuki grand vitara
+model_suzuki sx4
+model_tacoma
+model_tacoma 4x4
+model_tacoma access cab
+model_tacoma double cab
+model_tacoma double cab sr5
+model_tacoma double cab trd
+model_tacoma prerunner
+model_tacoma prerunner v6
+model_tacoma sr5
+model_tacoma trd
+model_tacoma trd off road
+model_tacoma trd sport
+model_tahoe
+model_tahoe 4x4
+model_tahoe ls
+model_tahoe lt
+model_tahoe lt 4x4
+model_tahoe lt sport utility
+model_tahoe ltz
+model_tahoe ltz 4x4
+model_tahoe police
+model_tahoe z71
+model_taurus
+model_taurus limited
+model_taurus police interceptor
+model_taurus se
+model_taurus sel
+model_taurus sel awd
+model_taurus ses
+model_taurus sho
+model_tc by maserati
+model_telluride
+model_terrain
+model_terrain denali
+model_terrain sle
+model_terrain sle-1
+model_terrain sle-2
+model_terrain slt
+model_terrain slt awd
+model_terraza
+model_thomas school bus
+model_thunderbird
+model_thunderbird convertible
+model_tiburon
+model_tiburon gt
+model_tiguan
+model_tiguan s
+model_titan
+model_titan crew cab
+model_titan le
+model_titan pro-4x
+model_titan se
+model_titan sv
+model_titan xd
+model_tl
+model_tl sedan 4d
+model_tlx
+model_tlx 3.5 w/technology pkg
+model_topkick
+model_torrent
+model_touareg
+model_town & country
+model_town & country limited
+model_town & country touring
+model_town and country
+model_town and country tourin
+model_town car
+model_town car signature
+model_town country
+model_towncar
+model_tracker
+model_trailblazer
+model_trailblazer ext
+model_trailblazer ls
+model_trailblazer ls 4x4
+model_trailblazer lt
+model_trailblazer ss
+model_trans am
+model_transit
+model_transit 250
+model_transit 250 cargo van
+model_transit 350
+model_transit cargo
+model_transit cargo 250
+model_transit cargo van
+model_transit connect
+model_transit connect cargo
+model_transit connect van
+model_transit connect wagon
+model_transit connect xl
+model_transit connect xlt
+model_transit t250
+model_transit van
+model_transit-250
+model_traverse
+model_traverse ls
+model_traverse lt
+model_traverse lt awd
+model_traverse lt sport
+model_traverse ltz
+model_trax
+model_trax ls
+model_trax ls sport utility
+model_trax lt
+model_trax lt sport utility
+model_tribeca
+model_tribeca limited
+model_tribute
+model_truck
+model_tsx
+model_tsx sedan 4d
+model_tt
+model_tucson
+model_tucson gls
+model_tucson limited
+model_tucson se
+model_tundra
+model_tundra 2wd truck
+model_tundra 4wd
+model_tundra 4wd truck
+model_tundra 4x4
+model_tundra crewmax
+model_tundra crewmax sr5 pickup
+model_tundra double cab
+model_tundra double cab sr5
+model_tundra limited
+model_tundra limited 4x4
+model_tundra sr5
+model_tundra sr5 4x4
+model_uplander
+model_uplander ls
+model_v50
+model_v70
+model_v70 wagon
+model_van
+model_vanagon
+model_vanagon westfalia
+model_velar
+model_veloster
+model_veloster turbo
+model_venture
+model_venza
+model_venza awd
+model_venza le
+model_veracruz
+model_veracruz limited
+model_verano
+model_versa
+model_versa 1.6 s
+model_versa note
+model_versa note sv
+model_versa s
+model_versa sedan
+model_versa sl
+model_versa sv
+model_versa sv sedan 4d
+model_vibe
+model_volt
+model_volt premium
+model_vue
+model_w4500
+model_windstar
+model_wrangler
+model_wrangler 4x4
+model_wrangler jk
+model_wrangler jk unlimited
+model_wrangler rubicon
+model_wrangler sahara
+model_wrangler sport
+model_wrangler sport 4x4
+model_wrangler sport suv 2d
+model_wrangler tj
+model_wrangler unlimi
+model_wrangler unlimited
+model_wrangler unlimited 4x4
+model_wrangler unlimited rubicon
+model_wrangler unlimited sahara
+model_wrangler unlimited sport
+model_wrangler unlimited sport s
+model_wrangler x
+model_wrangler yj
+model_wrx
+model_wrx limited
+model_wrx premium
+model_wrx sedan 4d
+model_wrx sti
+model_x-type
+model_x1
+model_x1 sdrive28i
+model_x1 xdrive28i
+model_x1 xdrive28i sport utility
+model_x1 xdrive35i
+model_x2
+model_x3
+model_x3 3.0i
+model_x3 3.0si
+model_x3 sdrive30i sport utility
+model_x3 xdrive28i
+model_x3 xdrive30i sport utility
+model_x3 xdrive35i
+model_x4
+model_x5
+model_x5 3.0i
+model_x5 4.4i
+model_x5 m
+model_x5 xdrive35d
+model_x5 xdrive35d sport utility
+model_x5 xdrive35i
+model_x5 xdrive35i sport utility
+model_x5 xdrive50i
+model_x6
+model_x6 m
+model_x6 xdrive35i
+model_x6 xdrive35i sport utility
+model_xc60
+model_xc60 t5 momentum sport
+model_xc70
+model_xc70 awd
+model_xc90
+model_xc90 3.2 awd
+model_xc90 awd
+model_xe
+model_xf
+model_xj
+model_xj6
+model_xj8
+model_xjl
+model_xjs
+model_xk
+model_xk8
+model_xk8 convertible
+model_xlr convertible
+model_xt4
+model_xt4 sport suv 4d
+model_xt5
+model_xt5 premium luxury
+model_xt5 sport utility 4d
+model_xterra
+model_xterra 4x4
+model_xterra s
+model_xterra se
+model_xts
+model_xts luxury
+model_xv crosstrek
+model_xv crosstrek 2.0i limited
+model_xv crosstrek 2.0i premium
+model_xv crosstrek premium
+model_yaris
+model_yaris hatchback
+model_yaris ia
+model_yukon
+model_yukon denali
+model_yukon denali awd
+model_yukon denali xl
+model_yukon sle
+model_yukon slt
+model_yukon slt 4x4
+model_yukon slt sport utility 4d
+model_yukon xl
+model_yukon xl 1500
+model_yukon xl denali
+model_yukon xl slt
+model_z3
+model_z3 convertible
+model_z3 roadster
+model_z4
+model_z4 2.5i
+model_zephyr
+fuel_electric
+fuel_gas
+fuel_hybrid
+fuel_other
+vehicle_status_lien
+vehicle_status_missing
+vehicle_status_parts only
+vehicle_status_rebuilt
+vehicle_status_salvage
+transmission_manual
+transmission_other
+drive_fwd
+drive_rwd
+drive_unknown
+vehicle_type_bus
+vehicle_type_convertible
+vehicle_type_coupe
+vehicle_type_hatchback
+vehicle_type_mini-van
+vehicle_type_offroad
+vehicle_type_other
+vehicle_type_pickup
+vehicle_type_sedan
+vehicle_type_truck
+vehicle_type_unknown
+vehicle_type_van
+vehicle_type_wagon
