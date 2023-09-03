@@ -1,6 +1,8 @@
 from flask import Flask, request
 from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import and_
 import mimetypes
 import requests
 import math
@@ -10,12 +12,61 @@ import joblib
 import pandas as pd
 import torch
 import torch.nn as nn
+from socket import gethostname
 
 mimetypes.add_type("application/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
 
 app = Flask(__name__, static_folder="../frontend/dist", static_url_path="")
 CORS(app)
+
+# Use on pythonanywhere
+
+SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
+    username="Dospix",
+    password="MySQLprojectpassword123",
+    hostname="Dospix.mysql.pythonanywhere-services.com",
+    databasename="Dospix$default",
+)
+app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
+app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+# Use locally
+
+# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project.db"
+# app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+db = SQLAlchemy(app)
+
+class Users(db.Model):
+    Username = db.Column(db.String(64), primary_key=True)
+    Days = db.relationship("Days", backref="users", cascade="all, delete-orphan")
+    Tasks = db.relationship("Tasks", backref="users", cascade="all, delete-orphan")
+    Habits = db.relationship("Habits", backref="users", cascade="all, delete-orphan")
+
+class Days(db.Model):
+    DayId = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    Username = db.Column(db.String(64), db.ForeignKey('users.Username'))
+    DayIndex = db.Column(db.Integer)
+    Tasks = db.relationship("Tasks", backref="days", cascade="all, delete-orphan")
+    Habits = db.relationship("Habits", backref="days", cascade="all, delete-orphan")
+
+class Tasks(db.Model):
+    TaskId = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    Username = db.Column(db.String(64), db.ForeignKey('users.Username'))
+    DayIndex = db.Column(db.Integer, db.ForeignKey('days.DayIndex'))
+    TaskIndex = db.Column(db.Integer)
+    Text = db.Column(db.String(128))
+    Completed = db.Column(db.Boolean)
+
+class Habits(db.Model):
+    HabitId = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    Username = db.Column(db.String(64), db.ForeignKey('users.Username'))
+    DayIndex = db.Column(db.Integer, db.ForeignKey('days.DayIndex'))
+    HabitIndex = db.Column(db.Integer)
+    Text = db.Column(db.String(128))
+    Completed = db.Column(db.Boolean)
 
 
 @app.route("/", defaults={"path": ""})
@@ -156,5 +207,67 @@ def convert_form_response_to_valid_neural_network_input(intial_response):
 
     return {"price": f"{float(prediction):,.2f}"}
 
+@app.route("/mysql-project/submit", methods=["POST"])
+@cross_origin()
+def change_mysql_project_user():
+    form_response_json = request.get_json()
+    username = form_response_json["formUsername"]
+    reached_registration_limit = form_response_json["reachedRegistrationLimit"]
+
+    has_registered = False
+    if Users.query.filter_by(Username=username).count() == 0 and reached_registration_limit:
+        return {
+            "currUser": "",
+            "hasRegistered": False
+        }
+    elif Users.query.filter_by(Username=username).count() == 0:
+        user = Users(Username=username)
+        db.session.add(user)
+        db.session.commit()
+        has_registered = True
+    
+    return {
+        "currUser": username,
+        "hasRegistered": has_registered
+    }
+
 if __name__ == "__main__":
-    app.run()
+    with app.app_context():
+        db.create_all()
+
+        # user = Users(Username="Ana")
+        # db.session.add(user)
+        # db.session.commit()
+        # day = Days(Username="Ana", DayIndex=1)
+        # db.session.add(day)
+        # db.session.commit()
+        # task = Tasks(Username="Ana", DayIndex=1, TaskIndex=1, Text="hello", Completed=False)
+        # db.session.add(task)
+        # db.session.commit()
+        # task = Tasks(Username="Ana", DayIndex=1, TaskIndex=2, Text="hello", Completed=False)
+        # db.session.add(task)
+        # db.session.commit()
+        # day = Days(Username="Ana", DayIndex=2)
+        # db.session.add(day)
+        # db.session.commit()
+        # habit = Habits(Username="Ana", DayIndex=2, HabitIndex=1, Text="hello", Completed=False)
+        # db.session.add(habit)
+        # db.session.commit()
+        # habit = Habits(Username="Ana", DayIndex=2, HabitIndex=2, Text="hello", Completed=False)
+        # db.session.add(habit)
+        # db.session.commit()
+        # db.session.query(Users).filter(Users.Username == "Marco").delete()
+        # db.session.query(Days).filter(Days.Username == "Ana").filter(Days.DayIndex == 1).delete()
+        # db.session.commit()
+
+        # task_rows = db.session.query(Users, Days, Tasks).join(Days, Users.Username == Days.Username).join(Tasks, and_(Users.Username == Tasks.Username, \
+        #     Days.DayIndex == Tasks.DayIndex)).all()
+        # habit_rows = db.session.query(Users, Days, Habits).join(Days, Users.Username == Days.Username).join(Habits, and_(Users.Username == Habits.Username, \
+        #     Days.DayIndex == Habits.DayIndex)).all()
+        # for user, day, task in task_rows:
+        #     print(user.Username, day.DayIndex, task.TaskIndex)
+        # for user, day, habit in habit_rows:
+        #     print(user.Username, day.DayIndex, habit.HabitIndex)
+    
+    if "liveconsole" not in gethostname():
+        app.run()
