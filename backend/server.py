@@ -1,3 +1,4 @@
+from dotenv import dotenv_values
 from flask import Flask, request
 from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
@@ -12,6 +13,13 @@ import joblib
 import pandas as pd
 import torch
 import torch.nn as nn
+import boto3
+import uuid
+import time
+import json
+from decimal import Decimal
+
+dotenv_dict = dotenv_values(".env")
 
 mimetypes.add_type("application/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
@@ -19,22 +27,18 @@ mimetypes.add_type("text/css", ".css")
 app = Flask(__name__, static_folder="../frontend/dist", static_url_path="")
 CORS(app)
 
-# Use on pythonanywhere
+DEVELOPMENT_MODE = True if dotenv_dict["DEVELOPMENT_MODE"] == "True" else False
 
-SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
-    username="Dospix",
-    password="MySQLprojectpassword123",
-    hostname="Dospix.mysql.pythonanywhere-services.com",
-    databasename="Dospix$default",
-)
-app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
-app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-
-# Use locally
-
-# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project.db"
-# app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+if not DEVELOPMENT_MODE:
+    # pythonanywhere MySQL setup
+    SQLALCHEMY_DATABASE_URI = f"mysql+mysqlconnector://{dotenv_dict["USERNAME"]}:{dotenv_dict["PASSWORD"]}@{dotenv_dict["HOSTNAME"]}/{dotenv_dict["DATABASENAME"]}"
+    app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
+    app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
+    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+else:
+    # local database setup
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project.db"
+    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
 
@@ -71,6 +75,67 @@ class Habits(db.Model):
 @cross_origin()
 def serve_react(path):
     return send_from_directory(app.static_folder, "index.html")
+
+
+aws_session_queue = []
+@app.route("/asw-macronutrient-project/get-food-item-info", methods=["POST"])
+@cross_origin()
+def get_food_item_info():
+    # Prevent overusing requests
+    global aws_session_queue
+    if len(aws_session_queue) > 3:
+        return {
+            "calories": 0,
+            "carbohydrates": 0,
+            "fat": 0,
+            "fetch_queue_length": 0,
+            "fiber": 0,
+            "food_name": "too many requests",
+            "measure": "please try again later",
+            "protein": 0,
+            "saturated_fat": 0,
+            "starch": 0,
+            "sugars": 0
+        }
+    instance_id = uuid.uuid4()
+    aws_session_queue.append(instance_id)
+    while aws_session_queue[0] != instance_id:
+        time.sleep(1)
+
+    # # Create a Boto3 session with the specified credentials and region
+    session = boto3.Session(
+        aws_access_key_id=dotenv_dict["AWS_ACCESS_KEY_ID"],
+        aws_secret_access_key=dotenv_dict["AWS_SECRET_ACCESS_KEY"],
+        region_name="us-east-1"
+    )
+
+    dynamodb = session.resource("dynamodb")
+    table_name = "food_macronutrients"
+    table = dynamodb.Table(table_name)
+
+    item_data = request.get_json()
+    # Define the primary key of the item you want to retrieve
+    primary_key = {
+        "food_name": item_data["foodItem"]
+    }
+    response = table.get_item(Key=primary_key)
+
+    # Decimal types can't be processed by the json.dumps() function
+    for key, value in response["Item"].items():
+        if type(value) == Decimal:
+            response["Item"][key] = float(value)
+    
+    for macronutrient_type in response["Item"].keys():
+        if macronutrient_type in ["calories", "carbohydrates", "fat", "fiber", "protein", "saturated_fat", "starch", "sugars"]:
+            response["Item"][macronutrient_type] = round(response["Item"][macronutrient_type] / 100 * item_data["currAmount"], 2)
+    
+    # convert from "100 g/ml" to "currAmountg/ml"
+    response["Item"]["measure"] = str(item_data["currAmount"]) + response["Item"]["measure"].split()[1]
+
+    response["Item"]["fetch_queue_length"] = len(aws_session_queue)
+    del aws_session_queue[aws_session_queue.index(instance_id)]
+
+    return response["Item"]
 
 # The Google API won't allow a value bigger than 40
 MAX_BOOKS_FETCHED = 40
@@ -434,4 +499,4 @@ def update_mysql_project_user_statistics():
 with app.app_context():
     db.create_all()
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=DEVELOPMENT_MODE)
