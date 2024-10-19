@@ -31,7 +31,7 @@ DEVELOPMENT_MODE = True if dotenv_dict["DEVELOPMENT_MODE"] == "True" else False
 
 if not DEVELOPMENT_MODE:
     # pythonanywhere MySQL setup
-    SQLALCHEMY_DATABASE_URI = f"mysql+mysqlconnector://{dotenv_dict["USERNAME"]}:{dotenv_dict["PASSWORD"]}@{dotenv_dict["HOSTNAME"]}/{dotenv_dict["DATABASENAME"]}"
+    SQLALCHEMY_DATABASE_URI = f"mysql+mysqlconnector://{dotenv_dict['USERNAME']}:{dotenv_dict['PASSWORD']}@{dotenv_dict['HOSTNAME']}/{dotenv_dict['DATABASENAME']}"
     app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
     app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
